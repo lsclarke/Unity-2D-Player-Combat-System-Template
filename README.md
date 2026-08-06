@@ -3,7 +3,7 @@
 
 
 <div class="Header Image">
-  <a draggable="false" href="https://novalen.itch.io/jump-masters"> <img align="center" width="800" height="450" alt="PlayerCombat Gif" src="https://github.com/user-attachments/assets/5a1442d6-d720-4979-9c7b-4385099f1e85" /></a>
+  <a align="center" draggable="false" href="https://novalen.itch.io/jump-masters"> <img align="center" width="800" height="450" alt="PlayerCombat Gif" src="https://github.com/user-attachments/assets/5a1442d6-d720-4979-9c7b-4385099f1e85" /></a>
 
 </div>
 
