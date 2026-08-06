@@ -8,5 +8,5 @@
 
 <h2 align="center" dir="auto"> Overview </h2>
 <h2 align="center" dir="auto"><strong>Genre: <code>2D Side-Scroller</code> <code>Action-Adventure</code> <code>Hack n Slash</code></h2>
-<h2 align="center" dir="auto"><strong>Role: <code>Gameplay and UI Programming</code>
+<h2 align="center" dir="auto"><strong>Role: <code>Gameplay and UI Programming</code></h2>
 A combat system template I developed to be a personal package asset to implement into future projects. Unique combo button system, Lock On System, and Enemy Stagger.
