@@ -13,7 +13,7 @@
 <p dir="auto">A combat system template I developed to be a personal package asset to implement into future projects. Unique combo button system, Lock On System, and Enemy Stagger.</p>
 
 <h2 align="center" dir="auto"> Player Combat </h2>
-<p dir="auto">The player combat was designed to have it so the player can perform attacks while on the move or stationary. With the use of both the `Left Mouse Button` and `Right Mouse Button` players can perform unique physical attacks and chain them together to continue the combo if the player makes contact with the enemy/dummy that is hit by the player hit box.</p>
+<p dir="auto">The player combat was designed to have it so the player can perform attacks while on the move or stationary. With the use of both the 'Left Mouse Button and Right Mouse Button' players can perform unique physical attacks and chain them together to continue the combo if the player makes contact with the enemy/dummy that is hit by the player hit box.</p>
 
 <h3 align="center" dir="auto"> Combat Design </h3>
 <p dir="auto">Player will always initially start out in exploration mode. This modes is typical for regular movement and so for when the player is progressing through levels or exploring in the 2D space while they are not in combat. When the attack button is pressed it sends a signal setting combat mode to `true`. This will activate the initial attack animation that allows the play to enter into combat mode revealing the players weapon or fighting stance showing they are now prepared to engage enemies. The most important design aspect behind this combat system I developed is the use of animation events placed in the animations of each individual attack and transitional animations. </p>
