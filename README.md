@@ -30,6 +30,8 @@
 <br>
 
 <h3 align="left" dir="auto"> UI Programming </h3>
-<p dir="auto">Developing an in-game user interface that provided the project with a visual indicator of the amount of points accumulated and collectables collected. 
-  By design the player ui logic the game keeps real time updates on the points collected and fruits and orbs collected throughout the level for the players to see at all times.</p>
+<p dir="auto">Player Stats UI is designed to showcase the player input controls and the state/animation modes the player is in. This provides the project with clear communication as to what the controls are and the different characteristics of the player.</p>
 <br>
+<p dir="auto">The speed meter is responsible for displaying the movement speed of the player. This helps to provide context as to how fast the player is moving at different states (walking, running, sprinting). Utilizing the player movement scriptable Object it was easy to access that data within the UI script.</p>
+<br>
+<p dir="auto">Dummy Sack UI is designed to display the Health and Stamina of the Enemy AI. This gives the project insight into the condition of the dummy ai and with a dummy canvas logic i developed. It provide the exact health amount and stagger the ai has up to date.</p>
