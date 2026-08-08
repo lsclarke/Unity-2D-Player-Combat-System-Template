@@ -10,7 +10,7 @@
 <h2 align="center" dir="auto"> Overview </h2>
 <h2 align="center" dir="auto"><strong>Genre: <code>2D Side-Scroller</code> <code>Action-Adventure</code> <code>Hack n Slash</code></h2>
 <h2 align="center" dir="auto"><strong>Role: <code>Gameplay and UI Programming</code></h2>
-<p dir="auto">A combat system template I developed to be a personal package asset to implement into future projects. Unique combo button system, Lock On System, and Enemy Stagger.</p>
+<p dir="auto">This project was developed to be a prototype template to cut on development time and start projects with pre-existing dynamic player combat system logic. This combat system template has a unique combo button system, Lock On System, and Enemy Health and Stagger UI logic implemented.</p>
 
 <br>
 
