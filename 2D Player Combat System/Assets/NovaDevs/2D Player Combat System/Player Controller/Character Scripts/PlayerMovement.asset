@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ee76a22130262d44906da3c26e7c376, type: 3}
+  m_Name: PlayerMovement
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
+  inputDirection: {x: 0, y: 0}
+  isMoving: 0
+  isWalking: 0
+  isRunning: 0
+  isSprinting: 1
+  isOnGround: 1
+  isJumping: 0
+  Landing: 0
+  isFalling: 0
+  canJump: 1
+  canRun: 1
+  jumpButtonPressed: 0
+  jumpButtonReleased: 0
+  movementSpeed: 0
+  SpeedMultiplier: 10
+  maxMovementSpeed: 7
+  groundCheckDistance: 0.15
+  jumpSpeed: 5
+  jumpHeight: 0
+  whenPlayerJumpTimer: 0
+  meleeButton: 112
+  meleeButton2: 0
+  jumpButton: 273
+  runButton: 304
+  cancelWeaponButton: 0
+  lineDistance: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 8
