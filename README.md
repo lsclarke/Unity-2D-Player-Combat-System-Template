@@ -12,12 +12,23 @@
 <h2 align="center" dir="auto"><strong>Role: <code>Gameplay and UI Programming</code></h2>
 <p dir="auto">A combat system template I developed to be a personal package asset to implement into future projects. Unique combo button system, Lock On System, and Enemy Stagger.</p>
 
-<h2 align="center" dir="auto"> Player Combat </h2>
-<p dir="auto">The player combat was designed to have it so the player can perform attacks while on the move or stationary. With the use of both the <code>Left Mouse Button</code> and <code>Right Mouse Button</code> players can perform unique physical attacks and chain them together to continue the combo if the player makes contact with the enemy/dummy that is hit by the player hit box.</p>
+<br>
 
-<h3 align="center" dir="auto"> Combat Design </h3>
-<p dir="auto">Player will always initially start out in exploration mode. This modes is typical for regular movement and so for when the player is progressing through levels or exploring in the 2D space while they are not in combat. When the attack button is pressed it sends a signal setting combat mode to <code>true</code>. This will activate the initial attack animation that allows the play to enter into combat mode revealing the players weapon or fighting stance showing they are now prepared to engage enemies. The most important design aspect behind this combat system I developed is the use of animation events placed in the animations of each individual attack and transitional animations. </p>
+<img width="800" height="450" alt="ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/e4163c38-fcf0-4359-a0ef-462bb00fa302" />
 
-<img width="1178" height="264" alt="Screenshot 2026-08-06 112810" src="https://github.com/user-attachments/assets/045d4eee-22bc-4ecc-b310-8cb047d3d04c" />
 
-<p dir="auto">The animation events with in the combat animations are signals to activate functions with specific purposes. Throughout my time developing player attacking it would clip through multiple animations making it look as though the player was glitching. With specific animation event functions I can pause the input so that the animation can play in full and prevent it from skipping to another attack without it fully playing the initial animation before it </p>
+<h2 align="center" dir="auto"> Feature </h2>
+<h3 align="left" dir="auto"> Gameplay Programming </h3>
+<p dir="auto"><strong><code>Player movement</code></strong> is designed to allow the player to move <strong><code>horizontally on the x-axis</code></strong>. Utilizing the <strong><code>rigidbody2D component</code></strong> within the unity engine I crafted a player movement that can be molded to be more specialized depending on what character you are. The wall jumping game mechanic is a feature only accessible to the Ninja Frog <strong><code>Jump Master</code></strong>.</p>
+<br>
+<p dir="auto"><strong><code>Wall Jumping </code></strong>gives the player the ability to <strong><code>push off of walls</code></strong>. Players will also reduce their fall speed by clinging to walls while in free fall. This feature was designed to help with precise jumping and mobility, in order to help the players to reach incredible heights.</p>
+<br>
+<p dir="auto">Traps designs were developed by implementing and utilizing the <strong><code>spline component</code></strong> into the designs of my traps. This provided the project with multiple saw trap variations that made platforming more exciting and challenging for players. The splines act as a <strong><code>path</code></strong> for the saws to follow and in doing so allows for a more optimized way of moving objects within a 2D space without the use of waypoints.</p>
+<br>
+<p dir="auto">The sprite animations provided the project with great visual impact that allows players to see the different states the player is in. By designing sprite animation logic the player is more visually appealing and can be easily identified as to when the player is in different health conditions, or on the move, or stationary.</p>
+<br>
+
+<h3 align="left" dir="auto"> UI Programming </h3>
+<p dir="auto">Developing an in-game user interface that provided the project with a visual indicator of the amount of points accumulated and collectables collected. 
+  By design the player ui logic the game keeps real time updates on the points collected and fruits and orbs collected throughout the level for the players to see at all times.</p>
+<br>
