@@ -14,7 +14,7 @@
 
 <br>
 
-<img width="800" height="450" alt="2026-08-0721-54-28-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/df2f0f09-d20d-486a-935e-ceaaece404e3" />
+<img align="center" width="800" height="450" alt="2026-08-0721-54-28-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/df2f0f09-d20d-486a-935e-ceaaece404e3" />
 
 
 
